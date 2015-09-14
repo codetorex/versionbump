@@ -22,6 +22,7 @@
 # Shared objects (inc. Windows DLLs)
 *.dll
 
+*.dat
 *.so
 *.so.*
 *.dylib
@@ -33,6 +34,13 @@
 *.i*86
 *.x86_64
 *.hex
+
+*.suo
+*.njsproj
+/js/typings
+/js/obj
+/js/node_modules
+*.sln
 
 # Debug files
 *.dSYM/

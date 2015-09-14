@@ -1,0 +1,20 @@
+{
+    "projects": {
+        "versionbump": {
+            "version": {
+                "build": 19,
+                "major": 1,
+                "minor": 0,
+                "version": "{major}.{minor} build {build} {suffix}",
+                "version_file": "{major}.{minor}-{build}{suffix}",
+                "suffix": "beta",
+                "outputs": [
+                    {
+                        "template": "version.template.js",
+                        "output": "./lib/version.js"
+                    }
+                ]
+            }
+        }
+    }
+}

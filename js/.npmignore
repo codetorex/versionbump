@@ -1,0 +1,7 @@
+*.suo
+*.njsproj
+*.dat
+/typings
+/obj
+*.dll
+*.sln
