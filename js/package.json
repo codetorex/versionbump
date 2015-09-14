@@ -1,6 +1,6 @@
 {
   "name": "versionbump",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "updates version with builds and regenerates version file from templates",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "versionbump": "bin/versionbump.js"
   },
   "author": "codetorex",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/codetorex/versionbump/js"
@@ -24,6 +24,5 @@
     "log": ">= 1.4.0",
     "node-getopt": ">= 0.2.3"
   },
-	"preferGlobal": "true",
-	"readme": "./Readme.md"
+	"preferGlobal": "true"
 }
