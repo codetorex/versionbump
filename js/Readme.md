@@ -1,9 +1,9 @@
 ﻿
 # Readme
 
-versionbump is cli tool for managing software version
+versionbump is a cli tool for managing software version.
 
-Create a version_config.json file
+Create a version_config.json file in your project folder like this;
 
 ```
 {
@@ -28,7 +28,7 @@ Create a version_config.json file
 }
 ```
 
-*Usage:*
+## Usage
 ```
 Usage: node versionbump.js
 
@@ -40,7 +40,7 @@ Usage: node versionbump.js
   -v, --version     show version
 ```
 
-*Examples:*
+##E xamples
 
 To increase value of 'build' in 'versionbump' project
 ```
@@ -53,9 +53,10 @@ versionbump -g versionbump.version.version
 ```
 
 You can use any values instead of "build", "major", "minor".
+
 You can use any of these variables as templates.
 
-Example js template:
+## Example JS template
 ```
 exports.Build = "{build}";
 exports.Major = "{major}";
@@ -63,10 +64,12 @@ exports.Minor = "{minor}";
 exports.Version = exports.Major + "." + exports.Minor;
 ```
 
-If template path is starts with ./ it will resolve to working directory scope.
-If it doesnt starts with that, it will use predefined template.
+If template path is starts with ```./``` it will resolve to working directory scope.
 
-Current predefined templates:
+If it doesn't starts with that, it will use predefined template.
+
+**Current predefined templates:**
+
 * javascript - version.template.js
 
 
