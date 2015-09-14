@@ -1,9 +1,9 @@
 ﻿
 # Readme
 
-versionbump is a cli tool for managing software version.
+**versionbump** is a cli tool for managing software version.
 
-Create a version_config.json file in your project folder like this;
+Create a ```version_config.json``` file in your project folder like this;
 
 ```
 {
@@ -40,7 +40,7 @@ Usage: node versionbump.js
   -v, --version     show version
 ```
 
-##E xamples
+## Examples
 
 To increase value of 'build' in 'versionbump' project
 ```
